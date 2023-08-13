@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2? family= Inconsolata:wght@500 & display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #c6afc6;
+    width: 100%;
+}
+.text-justify{
+    text-align: justify;
+ }
+a{
+    text-decoration: none;
+ }
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+   margin: 15px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #c6afc6;
+}
+.card :hover{
+    opacity: 0.7;
+ }
+ .card-text{
+    text-align: justify;
+ }
+img{
+    width: 150px;
+}
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: #c6afc6;
+    font-family: 'Inconsolata', monospace;
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #c6afc6;
+}
+.caja img {
+    border-radius: 50%;
+}
+@media (max-width: 576px){
+    .card-text {
+        font-size: 0.8rem;
+    }
+}
+footer {
+   background-color: #c6afc6;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #c6afc6;
+ }
